@@ -19,7 +19,7 @@ body {
 
 .search-div {
     margin: 20px auto;
-    width: 30%;
+    width: 40%;
 }
 
 .author-info {
@@ -29,6 +29,16 @@ body {
 
 .statement-title {
     text-align: center;
+}
+
+.search-btn {
+    padding: 8px;
+    background-color: rgb(82, 175, 82);
+    margin-left: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .statement-img {
@@ -46,6 +56,7 @@ body {
 .pet-list {
     padding: 30px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .statement {
@@ -56,7 +67,7 @@ body {
 }
 
 .search-input {
-    width: 100%;
+    width: 400px;
     border: 1px solid #BDBDBD;
     border-radius: 8px;
     padding: 10px;
