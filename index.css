@@ -7,6 +7,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 .main-nav {
     font-size: 1.5rem;
 }
